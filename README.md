@@ -10,6 +10,8 @@ Copyright (c) 2014-2020 Canada eCoin Developers
 ### Please see [https://github.com/Canada-eCoin/eCoinCore](https://github.com/Canada-eCoin/eCoinCore) for the latest volume of Canada eCoin.
 
 
+CDN Volume 1 finalized on block 6597666 (0x220268eeac463920e6a6144e26a5f453b1d7c8357ed4a8c93c98603147069052)
+CDN Volume 2 extends volume 1 -> https://github.com/Canada-eCoin/eCoinCore
 
 License
 -------
