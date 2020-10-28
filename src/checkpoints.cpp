@@ -37,9 +37,9 @@ namespace Checkpoints
         boost::assign::map_list_of
         (       0, uint256("0x863626dadaef221e2e2f30ff3dacae44cabdae9e0028058072181b3fb675d94a"))
         (    1024, uint256("0xeca0b8fb242d1439c7a73fd1f317a1ecfc06401e5fd63e1e1a4c055c55824669"))
+        (    2048, uint256("0x79c4706d3a044a46d1b42e3a6543ac00189fa2d25aa0ed3e1d24416b60bf31d7"))
         (  100000, uint256("0x5f6fcaa0642972517040ca6a6d8472000ce5996c28ed04a0ecf12852c5e8a1c9"))
         (  200000, uint256("0x948e229b668685864f746a49ae33200011e941af57f17b19cef8baad018f73b3"))
-        (  300000, uint256("0x4169603458272ba881a61c00e21f9e00bc525ceaa5bc5811daa1deea49f4517e"))
         (  400000, uint256("0x12a159199d557a3800076a0b67db8478f2a94096b7c146dda6e763d503d65122"))
         (  500000, uint256("0xebf29329a443d7fed6050dbffd64a95c4c3b028e71ddc789cde3cb85867d9f17"))
         (  600000, uint256("0x9b5747b5dbfac309c808b545e7dde1d1cc99afa9abc908079566bcbecc1f5edd"))
@@ -50,10 +50,14 @@ namespace Checkpoints
         ( 1100000, uint256("0x9acbf26c43f75b5f12213970eaaaaafd47ef82820bd664d53b268dfba52b6132"))
         ( 1200000, uint256("0x93fd2b11243e71581c6002ce8e78778f9929af2e2a9c75224125399e00f7c189"))
         ( 1300000, uint256("0x7ca6adc31fa07476f2bec6b5e877a3996bd7820019009951fde8a2a27470892c"))
+        ( 2500000, uint256("0x4ead1a31cd4e8b7125188151d38deb6faa2d3d70e8ff5ed512e9e1b06dccab83"))
+        ( 5000000, uint256("0xfa48e83b6dc4f3fbdb62d5a8401003a159a31866e5ca7f02f0819d5cadc02429"))
+        ( 6597666, uint256("0x220268eeac463920e6a6144e26a5f453b1d7c8357ed4a8c93c98603147069052")) // This is the last block in volume 1.
+        ( 6597667, uint256("0x220268eeac463920e6a6144e26a5f453b1d7c8357ed4a8c93c98603147069052")) // Duplicate this hash for closing of volume 1.
     ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1438273072, // * UNIX timestamp of last checkpoint block
+        1601650758, // * UNIX timestamp of last checkpoint block
         1401086,    // * total number of transactions between genesis and last checkpoint
                   //   (the tx=... number in the SetBestChain debug.log lines)
         2800.0     // * estimated number of transactions per day after checkpoint
